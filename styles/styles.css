@@ -2,6 +2,22 @@
 h1
 {
     color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+
+.h1WhiteText
+{
+    color: white;
+    font-size: 35px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.pWhiteText
+{
+    color: white;
+    
 }
 
 h2
@@ -12,6 +28,7 @@ h2
 p, li{
     font-size: 16px;
 }
+
 
 .navBar-styling
 {
@@ -37,7 +54,7 @@ p, li{
 {
     position: absolute;
     padding: 5%;
-    left: 650px;
+    left: 350px;
     text-align: center;
     background-color: #00032494;
     font-size: 45px;
@@ -49,6 +66,27 @@ p, li{
     position: absolute;
 }
 
+.amenities-row1-padding
+{
+    padding-top: 4.5rem;
+}
+
+.amenities-row2-padding
+{
+    padding-top: 4rem;
+
+}
+.amenities-row2-padding-valet
+{
+    padding-left: 100px;
+}
+
+
+.absoluteMe
+{
+    position: absolute;
+
+}
 
 /* images */
 .headerPage
@@ -72,4 +110,36 @@ p, li{
 {
     width: 100%;
     height: 548px;
+}
+
+/* Start Packages Page */
+.hamHeart
+{
+    width: 564px;
+    height: 234px;
+    padding-right: 0%;
+    margin: 0%;
+}
+
+/* End Packages Page */
+
+/* Start Reserve Page */
+.reserveRoom
+{
+    background-color: #000324;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    position: absolute;
+    left: 270px;
+}
+/* End Reserve Page */
+
+/* Footer Page */
+.footer
+{
+    background-color: #000324;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
