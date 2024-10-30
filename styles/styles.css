@@ -88,17 +88,31 @@ p, li{
 
 }
 
-/* images */
+                        /* images */
+                        /* Start Awards Page */
+.hamAward
+{   
+    width: 369px;
+    display: block
+    
+}
+
+.awardPadding1
+{
+    padding-right: 500px;
+    padding-bottom: 100px;
+    
+}
+
+.awardPaddingText
+{
+}
+                            /* End Awards Page */
+
 .headerPage
 {
     width: 100%;
     height: 500px;
-}
-
-.awardsPage
-{
-    padding-top: 2%;
-    
 }
 
 .headerRooms
@@ -112,7 +126,7 @@ p, li{
     height: 548px;
 }
 
-/* Start Packages Page */
+                            /* Start Packages Page */
 .hamHeart
 {
     width: 564px;
@@ -121,21 +135,24 @@ p, li{
     margin: 0%;
 }
 
-/* End Packages Page */
+                            /* End Packages Page */
 
-/* Start Reserve Page */
+                             /* Start Reserve Page */
 .reserveRoom
 {
     background-color: #000324;
-    padding-top: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
     position: absolute;
-    left: 270px;
+    
 }
-/* End Reserve Page */
 
-/* Footer Page */
+.reserveBackground
+{
+    background-image: url("../assets/hamsterreserve.jpg");
+    background-color: #cccccc;
+}
+                                /* End Reserve Page */
+
+                                /* Footer Page */
 .footer
 {
     background-color: #000324;
