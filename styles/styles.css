@@ -1,8 +1,43 @@
+@font-face
+{
+    font-family: 'Dosis-Regular';
+    src: url("../assets/fonts/Dosis-Regular.ttf");
+}
 
-h1
+@font-face
+{
+    font-family: 'SourceSans';
+    src: url("../assets/fonts/SourceSans3-Regular.ttf");
+}
+
+.absoluteMe
+{
+    position: absolute;
+
+}
+
+.removePadding
+{
+   padding: 0%;
+   margin: 0%;
+      
+}
+
+.pagePadding
+{
+    padding-bottom: 6rem;
+}
+
+.pagePaddingDown
+{
+    padding-top: 6rem;
+}
+
+h1, a
 {
     color: rgb(0, 0, 0);
     font-size: 35px;
+    font-family: 'Dosis-Regular'
 }
 
 .h1WhiteText
@@ -12,24 +47,27 @@ h1
     padding: 0%;
     margin: 0%;
     text-align: center;
+    font-family: 'Dosis-Regular'
 }
 
 .pWhiteText
 {
     color: white;
-    
+
 }
 
 h2
 {
     font-size: 25px;
+    font-family: 'Dosis-Regular'
 }
 
 p, li{
     font-size: 16px;
+    font-family: 'SourceSans';
 }
 
-
+/* Nav Bar */
 .navBar-styling
 {
     height: 120px;
@@ -41,7 +79,6 @@ p, li{
     padding: 2%;
 }
 
-/* Content inside */
 .navBar-links
 {
     font-size: 20px;
@@ -49,16 +86,21 @@ p, li{
     padding-top: 70px;
     text-decoration: none;
 }
+/* Nav Bar */
 
+/* Header */
 .homeContent
 {
     position: absolute;
     padding: 5%;
-    left: 350px;
+    margin-top: 4.5rem;
     text-align: center;
-    background-color: #00032494;
+    background-color: #000324ca;
     font-size: 45px;
-    color: aliceblue;
+    color: rgb(255, 255, 255); 
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
 }
 
 .headerRoomContent
@@ -66,30 +108,57 @@ p, li{
     position: absolute;
 }
 
-.amenities-row1-padding
+/* Header */
+
+/* Rooms */
+.cardTextPadding
 {
-    padding-top: 4.5rem;
+    padding-top: 7.5rem;
 }
 
-.amenities-row2-padding
+/* Rooms */
+
+/* Start Packages Page */
+.packageColor
 {
-    padding-top: 4rem;
-
-}
-.amenities-row2-padding-valet
-{
-    padding-left: 100px;
-}
-
-
-.absoluteMe
-{
-    position: absolute;
-
+    color: #2e66c6;
+    font-family: 'SourceSans';
 }
 
-                        /* images */
-                        /* Start Awards Page */
+.packageImages
+{ 
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    
+}
+
+/* End Packages Page */
+
+/* Amenities */
+.amenitiesBackground
+{
+    background-image: url(../assets/bg.jpg);
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+.row1-header
+{
+    padding-top: 2rem;
+}
+.row2-text
+{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}
+/* Amenities */
+
+
 .hamAward
 {   
     width: 369px;
@@ -107,7 +176,7 @@ p, li{
 .awardPaddingText
 {
 }
-                            /* End Awards Page */
+/* Amenities*/
 
 .headerPage
 {
@@ -126,37 +195,28 @@ p, li{
     height: 548px;
 }
 
-                            /* Start Packages Page */
-.hamHeart
-{
-    width: 564px;
-    height: 234px;
-    padding-right: 0%;
-    margin: 0%;
-}
 
-                            /* End Packages Page */
-
-                             /* Start Reserve Page */
-.reserveRoom
+ /* Start Reserve Page */
+.reserveText
 {
     background-color: #000324;
-    position: absolute;
+}
+
+.reserveButton
+{
+    color: rgb(255, 255, 255);
     
 }
 
-.reserveBackground
+.hide
 {
-    background-image: url("../assets/hamsterreserve.jpg");
-    background-color: #cccccc;
+    color: #000324;
 }
-                                /* End Reserve Page */
 
-                                /* Footer Page */
+/* footer */
+
 .footer
 {
     background-color: #000324;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 3%;
 }

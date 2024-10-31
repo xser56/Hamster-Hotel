@@ -11,10 +11,9 @@
 </head>
 
 <body>
-
-  <nav class="navbar bg-body">
-
-    <div class="container-fluid navBar-styling d-flex justify-content-center ">
+  <!-- NavBar -->
+  <nav class="navbar bg-body removePadding">
+    <div class="container-fluid navBar-styling d-flex justify-content-center">
       <div class="row">
         <div class="col navBar-links ">
           <a class="navBar-links" href="">Overview </a>
@@ -52,7 +51,7 @@
   </div>
   <img class="headerPage" src="./assets/header.jpg" alt="head1"></div>
   <!-- Hamster Awards -->
-  <div class="container">
+  <div class="container pagePadding pagePaddingDown">
     <div class="row">
       <div class="col d-flex justify-content-end"> <img src="./assets/hamsterhomejpg.jpg" width="369px" height="416px" alt="HamHome"></div>
       <div class="col">
@@ -68,12 +67,12 @@
           our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing
           La Petite Maison.</p>
           <div class="row">
-            <div class="col "> <img src="./assets/awardfinest.png" width="200px" height="153px"
+            <div class="col d-flex justify-content-between"> <img src="./assets/awardfinest.png" width="200px" height="153px"
                 alt="finest">
-                <img src="./assets/awardfinest.png" width="200px" height="153px"
-                alt="finest">
-                <img src="./assets/awardfinest.png" width="200px" height="153px"
-                alt="finest">
+                <img src="./assets/awardgenuine.png" width="200px" height="153px"
+                alt="gen">
+                <img src="./assets/awardsatisfaction.png" width="200px" height="153px"
+                alt="sat">
             </div>
           </div>
           
@@ -82,7 +81,7 @@
       </div>
     </div>
     <!-- Our Rooms  -->
-  <div class="container-fluid">
+  <div class="container-fluid pagePadding removePadding">
     <div class="col d-flex justify-content-center">
       <img class="headerRooms" src="./assets/bg2.jpg" alt="bg2">
 
@@ -90,12 +89,12 @@
         <div class="row d-flex justify-content-evenly">
           <h1 class="d-flex justify-content-center h1WhiteText p-4">Our rooms</h1>
 
-          <div class="col-4 card logo p-0" style="width: 369px; height: 522px;">
+          <div class="col-4 card logo p-0" style="width: 369px; height: 600px;">
             <img src="./assets/room1.jpg" class="card-img-top" alt="room1">
             <div class="card-body">
-              <h4 class="card-title">Queen Room</h4>
+              <h2 class="card-title">Queen Room</h2>
               <h6> 850 SQ FT room with city view</h6>
-              <p class="card-text">
+              <p class="card-text ">
                 <li>
                   One queen size bed
                 </li>
@@ -106,13 +105,14 @@
                   Small kitchem with a refrigerator and stove
                 </li>
               </p>
-              <a href="#" class="btn btn-primary">Reserve</a>
+              <div class="cardTextPadding"></div>
+              <a href="#" class="btn btn-primary ">Reserve</a>
             </div>
           </div>
-          <div class="col-4 card logo p-0" style="width: 369px; height: 522px;">
-            <img src="./assets/room2.jpg" class="card-img-top" alt="room2">
+          <div class="col-4 card logo p-0" style="width: 369px; height: 600px;">
+            <img src="./assets/room3.jpg" class="card-img-top" alt="room2">
             <div class="card-body">
-              <h4 class="card-title">King Room</h4>
+              <h2 class="card-title">King Room</h2>
               <h6> 950 SQ FT room with beach view</h6>
               <p class="card-text">
                 <li>
@@ -125,13 +125,14 @@
                   Small kitchen with a refrigerator and stove
                 </li>
               </p>
+              <div class="cardTextPadding"></div>
               <a href="#" class="btn btn-primary">Reserve</a>
             </div>
           </div>
-          <div class="col-4 card logo p-0" style="width: 369px; height: 522px;">
-            <img src="./assets/room3.jpg" class="card-img-top" alt="room3">
+          <div class="col-4 card logo p-0" style="width: 369px; height: 600px;">
+            <img src="./assets/room2.jpg" class="card-img-top" alt="room3">
             <div class="card-body">
-              <h4 class="card-title">Beach Side Suite</h4>
+              <h2 class="card-title">Beach Side Suite</h2>
               <h6>1500 SQ FT Suite with beach view</h6>
               <p class="card-text">
                 <li>
@@ -145,6 +146,7 @@
                   Full kitchen with a refrigerator, stove, and island
                 </li>
               </p>
+              <div class="pt-5"></div>
               <a href="#" class="btn btn-primary">Reserve</a>
             </div>
           </div>
@@ -153,97 +155,127 @@
     </div>
   </div>
   <!-- Packages -->
-  <div class="container spaceBetweenContainer">
-    <div class="row">
-      <h1 class=" d-flex justify-content-center">Packages</h1>
-      </div>
-      <div class="row">
-      <div class="col">
-        <img class="hamHeart" src="./assets/hamsterwedding.jpg" width="561px" hieght="234px" alt="hamHeart">
-      </div>
-      <div class="col">
-        <h2>
-          Beach Wedding Package
-        </h2>
-        <p class="text-primary-emphasis"> Starting US $1,500.00</p>
-        <p> Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All
-          wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A
-          private dinner for your closets family members and friends will be provided after the ceremony.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h2>
-          Full Bloom Package
-        </h2>
-        <p class="text-primary-emphasis"> Starting US $1,000.00</p>
-        <p> Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our
-          orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh,
-          vegetable centric dinners along with a live show from local musicians.</p>
-      </div>
-      <div class="col"> <img src="./assets/hamsterspring.jpg" alt="hamSpring"></div>
-    </div>
-
-    <div class="row">
-      <div class="col"> <img src="./assets/hamstercheese.jpg" alt="hamSpring"></div>
-      <div class="col">
-        <h2>
-          Cheese and Seed Tour Package
-        </h2>
-        <p class="text-primary-emphasis"> Starting US $1,200.00</p>
-        <p> Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from
-          around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at
-          our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- Hamster Amenities -->
-    <div class="container-fluid">
+  <div class="container pagePadding">
+    <div class="row ">
       <div class="col d-flex justify-content-center">
-        <img class="headerRooms" src="./assets/bg.jpg" alt="bg2">
+        <h1 class="m-4">Packages</h1>
+      </div>
+    </div>
+    
+    <div class="row ">
+    <div class="col"> 
+      <img class="packageImages" src="./assets/hamsterwedding.jpg" alt="wedding">
+    </div>
+    <div class="col pt-4"> <h2>
+        Beach Wedding Package
+      </h2>
+      <p class="packageColor pt-3"> Starting US $1,500.00</p>
+      <p class="pt-3"> Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All
+        wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A
+        private dinner for your closets family members and friends will be provided after the ceremony.</p>
+      </div>
+    </div>
   
-        <div class="container headerRoomContent p-2">
-          <div class="row d-flex justify-content-evenly">
-            <h1 class="d-flex justify-content-center h1WhiteText p-4">Amenities</h1>
-            <p class="d-flex justify-content-center pWhiteText">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the
-              most relaxing stay we can provide.</p>
-            </div>
-
-              <div class="row amenities-row1-padding d-flex justify-content-center">
-                <div class="col amenities-row2-padding"> <img src="./assets/24hour.png" width="150px" hieght="101px" alt="24hour">
-                  <b><p class="pWhiteText"> 24hr Room Service</p></b>
-                </div>
-                <div class="col  amenities-row2-padding"> <img src="./assets/breakfast.png" width="150px" height="104px" alt="breakfast">
-                  <b><p class="pWhiteText"> Complimentary Breakfast</p></b>
-                </div>
-                <div class="col amenities-row2-padding"> <img src="./assets/valet.png" width="100px" height="115px" alt="valet">
-                  <b><p class="pWhiteText"> Valet Parking</p></b>
-                </div>
-                <div class="col  amenities-row2-padding"> <img src="./assets/pool.png" width="155px" height="110px" alt="pool">
-                  <b><p class="pWhiteText"> Beachside Pool</p></b>
-                </div>
-              </div>
+    <div class="row ">
+      <div class="col pt-4"> <h2>
+        Full Bloom Package
+      </h2>
+      <p class="packageColor pt-3"> Starting US $1,000.00</p>
+      <p class="pt-3"> Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh, vegetable centric dinners along with a live show from local musicians.</p>
+      </div>
+      <div class="col"> 
+        <img class="packageImages" src="./assets/hamsterspring.jpg" alt="spring">
+      </div>
+      </div>
+  
+      <div class="row ">
+        <div class="col"> 
+          <img class="packageImages" src="./assets/hamstercheese.jpg" alt="cheese">
+        </div>
+        <div class="col pt-4"> <h2>
+          Cheese and Seed Tour Package
+          </h2>
+          <p class="packageColor pt-3"> Starting US $1,200.00</p>
+          <p class="pt-3"> Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to bring you the best flavors that nature has to offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly spa treatment is provided after dinner.</p>
           </div>
         </div>
+  </div>
+  
+  <!-- Amenities -->
+  <div class="container-fluid amenitiesBackground">
+    <div class="row row1-header">
+      <div class="col"><h1 class="h1WhiteText">Amenities </h1>
       </div>
-<!-- Reserve Room -->
-<div class="container">
-  <div class="col d-flex justify-content-center">
-    <img class="headerRooms" src="./assets/bg2.jpg" alt="bg2">
-
-    <div class="container headerRoomContent p-2">
-      <div class="row d-flex justify-content-evenly">
-        <h1 class="d-flex justify-content-center h1WhiteText p-4">Reserve Room</h1>
-  <div class="row">
-    <div class="col d-flex justify-content-center">
-      <img src="./assets/hamsterreserve.jpg" width="1137px" alt="">
+      <p class="pWhiteText p-4">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide. </p>
+    </div>
+    
+    <div class="row p-5">
+      <div class="col">
+        <img src="./assets/24hour.png" alt="24hr">
+        <p class="row2-text"> 24 Hour Room Service </p>
+      </div>
+      <div class="col ">
+        <img src="./assets/breakfast.png" alt="breakfast">
+        <p class="row2-text"> Complimentary </p>
+      </div>
+      <div class="col">
+        <img src="./assets/valet.png" height="110px" alt="valet">
+        <p class="row2-text"> Valet Parking </p>
+      </div>
+      <div class="col">
+        <img src="./assets/pool.png" alt="pool">
+        <p class="row2-text"> Beachside Pool </p>
+      </div>
     </div>
   </div>
- </div>
+<!-- Reserve Room -->
+<div class="container pagePadding">
+  <div class="row reserveText">
+    <div class="col h1WhiteText"> Reserve a Room </div>
+  </div>
+
+  <div class="row reserveText ">
+    <div class="col pWhiteText">
+      <p>Check-in</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+    <div class="col pWhiteText">
+      <p>Check-Out</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+    <div class="col pWhiteText">
+      <p>Number of Guests</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+    <div class="col pWhiteText">
+      <p>Room Type</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+    <div class="col">
+      <p class="hide">aswdawd</p>
+      <div class="reserveButton"> <button type="button" class="btn btn-primary">Check Availability</button> </div>
+    </div>
+    <div class="col pWhiteText">
+      <p></p>
+    </div>
+  </div>
+  <div class="row"><img src="./assets/hamsterreserve.jpg" alt=""></div>
+</div>
+
 <!-- Footer -->
-<div class="container-fluid footer d-flex justify-content-center">
+<div class="container-fluid footer">
   <div class="row">
     <div class="col"><img src="./assets/Logo.png" alt="logo">
     <div class="col"> <p class="pWhiteText"> 123 Sunflower Seed Rd., Cavia, California 9
