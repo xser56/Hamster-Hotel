@@ -112,6 +112,13 @@ p, li{
     position: absolute;
 }
 
+.headerPage
+{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 /* ------------------------------------------------------ Header End ----------------------------------------------------*/
 
 /* ------------------------------------------------------ Awards Start --------------------------------------------------*/
@@ -120,8 +127,15 @@ p, li{
     .awardImageResponse
     {
         width: 100px;
+        object-fit: cover;
     }
 }
+
+.awardsImagePaddings
+{
+    padding-bottom: 5rem;
+}
+
 
 /* ------------------------------------------------------ Awards End --------------------------------------------------*/
 
@@ -133,10 +147,44 @@ p, li{
     .responsiveMe
     {
         width: 100%;
+        object-fit: cover;
     }
 }
 
-.cardTextPadding
+
+@media screen and ( max-width: 768px)
+{
+    .roomResponsivePadding
+    {
+        padding-top: 8rem;
+    }
+}
+
+@media screen and ( max-width: 768px)
+{
+    .roomResponsivePaddingCard3
+    {
+        padding-top: 0.6rem;
+    }
+}
+
+@media screen and ( min-width: 1920px)
+{
+    .roomResponsivePadding1
+    {
+        padding-top: 5rem;
+    }
+}
+
+@media screen and ( min-width: 1920px)
+{
+    .roomResponsivePadding2
+    {
+        padding-top: 3.6rem;
+    }
+}
+
+.cardTextPaddin
 {
     padding-top: 4.5rem;
 }
@@ -155,11 +203,15 @@ p, li{
     font-family: 'SourceSans';
 }
 
-.packageImages
+
+
+.packageImagesTest
 { 
-    display: block;
-    max-width: 100%;
-    height: auto; 
+    width: 100%;
+    height: 234px;
+    object-fit: cover;
+    
+    
     
 }
 
@@ -169,8 +221,10 @@ p, li{
 .amenitiesBackground
 {
     background-image: url(../assets/bg.jpg);
+    object-fit: cover;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
+    background-color: #000324;
 
 }
 
@@ -192,12 +246,17 @@ p, li{
 .reserveText
 {
     background-color: #000324;
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    
 }
 
 .reserveButton
 {
     color: rgb(255, 255, 255);
-    
+    border-radius: 0%;
 }
 
 .hide
@@ -207,8 +266,8 @@ p, li{
 
 .reserveImage
 {
-    display: flex;
-    justify-content: center;
+   object-fit: cover;
+   object-fit: contain;
 }
 
 /* ----------------------------------------------------- Reserve End -------------------------------------------------------*/
@@ -222,12 +281,6 @@ p, li{
 }
 /* Footer End */
 
-.headerPage
-{
-    width: 100%;
-    height: 500px;
-}
-
 .headerRooms
 {
     width: 100%;
@@ -239,4 +292,8 @@ p, li{
     height: 548px;
 }
 
+.footerPadding
+{
+    padding-top: 1rem;
+}
 /* ----------------------------------------------------- Footer End -------------------------------------------------------*/
